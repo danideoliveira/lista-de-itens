@@ -148,7 +148,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.3s;
 
+}
+
+.botao-download:hover {
+    background: #6d9ca0;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .botao-imprimir {
@@ -162,7 +169,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.3s;
 
+}
+
+.botao-imprimir:hover {
+    background: #947ea1;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 

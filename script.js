@@ -5,14 +5,18 @@ let lista = document.querySelector('.ul');
 let ultimoItem = lista.length;
 let itens = lista.children;
 
-console.log(lista)
+document.addEventListener("keypress", function(event) {
+         if (event.key === 'Enter') {
+            event.preventDefault();
+            botaoAdicionar.click();
+        }
+    });
 
 botaoAdicionar.addEventListener('click', function() {
     var itemAdicionado = document.querySelector('.input-item').value;
 
     if(itemAdicionado.length <= 0) {
         alert("Digite o nome de um item!")
-        console.log(itemAdicionado.length)
 
     } else {
         var novoItem = document.createElement('li')
@@ -29,6 +33,7 @@ botaoAdicionar.addEventListener('click', function() {
             
         });
         document.querySelector('.input-item').value = ""
+        document.querySelector('.input-item').focus()
         ultimoItem += 1
     }
 })
