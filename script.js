@@ -1,6 +1,7 @@
 
 let botaoAdicionar = document.querySelector('.botao-adicionar');
 let lista = document.querySelector('.ul');
+
 let ultimoItem = lista.length;
 let itens = lista.children;
 
@@ -27,6 +28,7 @@ botaoAdicionar.addEventListener('click', function() {
             ultimoItem -= 1
             
         });
+        document.querySelector('.input-item').value = ""
         ultimoItem += 1
     }
 })
