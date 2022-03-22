@@ -116,7 +116,15 @@
     border-radius: 10px;
     border: none;
     font-size: 50px;
+    transition: 0.3s;
 
+}
+
+.botao-adicionar:hover {
+    background: #115c2a;
+    color: #FFFFFF;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 .div-download-imprimir {
@@ -125,7 +133,9 @@
     justify-content: flex-start;
     align-items: center;
     gap: 20px;
-    width: 70%;}
+    width: 70%;
+
+}
 
 .botao-download {
 
@@ -260,6 +270,7 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
+    transition: 0.3s;
 
 }
 
@@ -267,24 +278,23 @@
 
     color: var(--cor_titulo);
     background: var(--cor_botao_cancelar);
+    cursor: pointer;
+    transition: 0.3s;
 
 }
 
-/* width */
 ::-webkit-scrollbar {
 
     width: 5px;
 
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
 
     border-radius: 10px;
 
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
     
     background: #d8b861;
