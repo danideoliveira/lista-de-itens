@@ -4,10 +4,12 @@ Neste projeto, o usuário poderá criar uma lista com os itens que desejar. Bast
 
 ##  🔸 Screenshots
 <p align="left">
-### Desktop
+▫️ Desktop </br>
 <img src="assets/printTela01.png">
 </br>
-### Mobile
+</br>
+</br>
+▫️ Mobile </br>
 <img src="assets/printTela02.png">
 </p>
 
